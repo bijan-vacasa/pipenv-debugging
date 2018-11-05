@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-wagtail-metadata-mixin = {ref = "0.0.6", git = "https://github.com/bijan-vacasa/wagtail-metadata-mixin.git"}
+wagtail-metadata-mixin = {editable = true, ref = "0.0.6", git = "https://github.com/bijan-vacasa/wagtail-metadata-mixin.git"}
 wagtail = "==2.2.*"
 
 [dev-packages]

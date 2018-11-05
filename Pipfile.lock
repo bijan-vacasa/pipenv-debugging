@@ -1,10 +1,12 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ec0591e926a96e4e66f6fd2292fb6abcc906827a2207d078ca06df6a5cd6a957"
+            "sha256": "f83b8a61478f8ef6209475cb30c4c9771a6d9e6bb672f4f55b31dd55d2df93de"
         },
         "pipfile-spec": 6,
-        "requires": {},
+        "requires": {
+            "python_version": "3.6"
+        },
         "sources": [
             {
                 "name": "pypi",
@@ -42,6 +44,13 @@
                 "sha256:d6d94554abc82ca37e447c3d28958f5ac39bd7d4adaa285543ae97fb1129fd69"
             ],
             "version": "==2.0.9"
+        },
+        "django-meta": {
+            "hashes": [
+                "sha256:21fc5d0d5fcacda5d038af0babd08afaa4d5bed1b746edb6522c4d3435da8db6",
+                "sha256:dd4a440223cc6243a7815c183b6ada1f11b99b4d672471e67f8db4d8b48a5674"
+            ],
+            "version": "==1.4.1"
         },
         "django-modelcluster": {
             "hashes": [
@@ -168,6 +177,7 @@
             "version": "==2.2.2"
         },
         "wagtail-metadata-mixin": {
+            "editable": true,
             "git": "https://github.com/bijan-vacasa/wagtail-metadata-mixin.git",
             "ref": "b8e3fddcca4bb59d82065b324333a05ef68845d7"
         },
